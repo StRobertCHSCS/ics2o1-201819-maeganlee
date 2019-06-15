@@ -1,0 +1,488 @@
+print("                                                                                  ")
+
+print("                           Computer science Quiz")
+print("                                                                                  ")
+print("                    Welcome to the Computer science Quiz !")
+print("                                                                                  ")
+print("                This quiz will be based on some of the context ")
+print("                taught in ICS201 and some context relating with ")
+print("                      computers and society. Good Luck!  ")
+print("                                                                                  ")
+print("                                                                                  ")
+
+count_wrong_answer = 0
+count_right_answer = 0
+
+
+print("1. What is the 8th largest measurement of storage? ")
+a = print("   a. Yottabyte ")
+b = print("   b. Treabyte ")
+c = print("   c. Exabyte ")
+d = print("   d. Zettabyte ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "c":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "c":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("2. What is the smallest unit of measuremnt? ")
+a = print("   a. Bytes ")
+b = print("   b. Bit ")
+c = print("   c. Megabit ")
+d = print("   d. Megabyte ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "b":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "b":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("3. How can one of the options listed help to improve the safety of your computer?")
+a = print("   a. More internal storage ")
+b = print("   b. Better graphics card ")
+c = print("   c. Long lasting power supply ")
+d = print("   d. None of the above ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "d":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "d":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("4. What is the average amount of RAM in recent laptop models? ")
+a = print("   a. 8GB ")
+b = print("   b. 4GB ")
+c = print("   c. 16GB ")
+d = print("   d. 32GB ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "a":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "a":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("5. Which of the following in a network encourages our daily technology addictions?  ")
+a = print("   a. ISP ")
+b = print("   b. The internet ")
+c = print("   c. Modem ")
+d = print("   d. Extender ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "b":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "b":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("6. An extender extends the distance over which a WLAN signal can spread. What is a WLAN (Wireless LAN) ?")
+a = print("   a. A wireless computer network that links two or more devices using wireless communication to form a local area network within a limited area ")
+b = print("   b. A global computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols ")
+c = print("   c. Converts data into a format suitable for transmission medium so that it can be transmitted from computer to computer ")
+d = print("   d. A hardware device or software program that protects your network from malicious users and offensive Websites, keeping hackers from accessing or destroying your data. ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "a":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "a":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("7. Which of the following malware duplicates itself and destroys data? ")
+a = print("   a. Rootkit ")
+b = print("   b. Browser hijakcer ")
+c = print("   c. Backdoor ")
+d = print("   d. Worm ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "d":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "d":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("8. Which of the following would NOT help to prevent your computer from ransomware? ")
+a = print("   a. Use a firewall ")
+b = print("   b. Keep personal information saved on browsers  ")
+c = print("   c. Download anti-virus ")
+d = print("   d. Manual system resets ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "b":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "b":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("9. Which of the following ways do NOT improve our society through computers? ")
+a = print("   a. Expanded our ability to socialize on a larger scale, in vast distances ")
+b = print("   b. Help with shopping/ gave the convenience of shopping/purchasing objects online ")
+c = print("   c. Cyberbullying is easier ")
+d = print("   d. Improve organization ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "c":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "c":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("10. Computers have helped our society in many ways ")
+a = print("   a. True ")
+b = print("   b. False ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+
+while choice != "a" and choice != "b":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "a":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "a":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("11. In what ways do computers negatively affect our environment? ")
+a = print("   a. By going on many web browsers, we strain our eyes ")
+b = print("   b. Computers are made out of heavy metals which are extremely harmful when thrown into the ocean ")
+c = print("   c. We can order food online resulting in the build up of indolence ")
+d = print("   d. We utilize computers often, which creates a lack in writing in ink")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "b":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "b":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("12. How can we improve or reduce negative effects of computers on our environment? ")
+a = print("   a. When you want to rid yourself of an old computer, deliver it to a recycling company so it can be disposed of properly ")
+b = print("   b. Never talk with anyone again on Facebook, Skype, Discord, etc. ")
+c = print("   c. There are no negative effects of computers on your environment ")
+d = print("   d. All of the above ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "a":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "a":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("13. Which of the following questions below may be an ethical question? ")
+a = print("   a. Are computers a good investment for you? ")
+b = print("   b. Are computers beneficial to your health? ")
+c = print("   c. When we download music from the internet, is it illegal? ")
+d = print("   d. Is copying software and applications a form of stealing? ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "d":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "d":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("14. What is not included in ethical issues regarding computers? ")
+a = print("   a. Privacy ")
+b = print("   b. Copying Software ")
+c = print("   c. Playing games ")
+d = print("   d. None of the above ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "c":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "c":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+print("Ok! Next Question.")
+
+print("                                                                                  ")
+
+print("                                                                                  ")
+
+print("15. What is a possible prerequisite for entering university/college majoring in computer science? ")
+a = print("   a. Calculus, English, Physics, Advanced Functions ")
+b = print("   b. Music, English, Religion and Advanced Functions ")
+c = print("   c. Art, Biology, Religion and Physics ")
+d = print("   d. Data Management, Chemistry, Photography and Music ")
+
+print("                                                                                  ")
+
+choice = input("Choose option a, b, c or d: ")
+
+print("                                                                                  ")
+
+while choice != "a" and choice != "b" and choice != "c" and choice != "d":
+    print("Please choose a letter corresponding to the options above.")
+    choice = input("Choose option a, b, c or d: ")
+
+if choice != "d":
+    count_wrong_answer += 1
+    print("                                                                                  ")
+
+elif choice == "d":
+    count_right_answer += 1
+    print("                                                                                  ")
+
+print("Ok! This is the end of the quiz.")
+
+print("                                                                                  ")
+
+
+print("    Congratulations! You have completed the multiple choice Computer Science Quiz.")
+
+print("                                                                                  ")
+
+print("                       You answered " + str(count_wrong_answer) + " question(s) wrong.")
+
+print("                    Congratulations you got " + str(count_right_answer / 15 * 100) + " percent!  ")
